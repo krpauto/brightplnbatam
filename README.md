@@ -1,5 +1,5 @@
 # brightplnbatam
 
-Bright PLN Batam
-Framework FrontEnd: Boostrap / Tailwind CSS
-Framework Backend: CI
+          Bright PLN Batam
+          Framework FrontEnd: Boostrap 
+         Framework Backend: Codeigniter
