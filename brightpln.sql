@@ -74,7 +74,6 @@ INSERT INTO `tb_gawe` (`id_gawe`, `name_gawe`, `date_gawe`, `info_gawe`) VALUES
 CREATE TABLE `tb_users` (
   `id_user` bigint(20) UNSIGNED NOT NULL,
   `name_user` varchar(50) NOT NULL,
-  `email_user` varchar(50) NOT NULL,
   `password_user` varchar(70) NOT NULL,
   `info_user` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -83,10 +82,10 @@ CREATE TABLE `tb_users` (
 -- Dumping data for table `tb_users`
 --
 
-INSERT INTO `tb_users` (`id_user`, `name_user`, `email_user`, `password_user`, `info_user`) VALUES
-(1, 'admin', 'admin@gmail.com', '$2y$10$J1fB3hzgg8nOn84HLFbAe.o05flCNY5ZDSAO7FH5etSBlO774EwpO', NULL),
-(2, 'admin2', 'admin2@gmail.com', '$2y$10$5ZFm1EAjcIVm9VvV9Hm1AOzwuJN6hcBcuinHkJi.5qEZ40yBjf1q6', NULL),
-(3, 'admin3', 'admin3@gmail.com', '$2y$10$D.DYpRFl1ZFdsiLOcpoJU./QpxH/yVZepv7Hzegt2Jn9obCpkPUnO', NULL);
+INSERT INTO `tb_users` (`id_user`, `name_user`, `password_user`, `info_user`) VALUES
+(1, 'admin', '$2y$10$J1fB3hzgg8nOn84HLFbAe.o05flCNY5ZDSAO7FH5etSBlO774EwpO', NULL),
+(2, 'admin2', '$2y$10$5ZFm1EAjcIVm9VvV9Hm1AOzwuJN6hcBcuinHkJi.5qEZ40yBjf1q6', NULL),
+(3, 'admin3', '$2y$10$D.DYpRFl1ZFdsiLOcpoJU./QpxH/yVZepv7Hzegt2Jn9obCpkPUnO', NULL);
 
 --
 -- Indexes for dumped tables
