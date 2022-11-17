@@ -2,4 +2,4 @@
 
           Bright PLN Batam
           Framework FrontEnd: Boostrap 
-          Framework Backend: Codeigniter 3
+          Framework Backend: Laravel 9
